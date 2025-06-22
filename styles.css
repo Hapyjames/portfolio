@@ -708,6 +708,9 @@ footer {
   text-decoration: underline;
 }
 @media (max-width: 700px) {
+  body{
+    margin:0;
+  }
   .portfolio-intro {
     font-size: 1em;
     margin-bottom: 18px;
@@ -721,6 +724,9 @@ footer {
 }
 /* Responsive Design */
 @media (max-width: 950px) {
+  body{
+    margin:0;
+  }
   .hero {
     flex-direction: column-reverse;
     padding: 36px 6vw 36px 6vw;
@@ -731,6 +737,9 @@ footer {
 }
 
 @media (max-width: 700px) {
+  body{
+    margin:0;
+  }
   .main-bg{
     height: 1100px;
   }
@@ -859,6 +868,9 @@ footer {
 
 
 @media (max-width: 480px) {
+  body{
+    margin:0;
+  }
   .navbar, .hero, .supplementary-section { padding-left: 1vw; padding-right: 1vw; width: 99vw;}
   .hero { padding: 10vw 1vw 10vw 1vw;}
   .hero-left h1 { font-size: 1.1rem; }
